@@ -16,8 +16,8 @@ function App() {
     return (
       <>
         <Routes>
-          <Route path="/" element={<EventManagement />} />
-          <Route path="/login" element={<Auth/>}/>
+          <Route path="/event" element={<EventManagement />} />
+          <Route path="/" element={<Auth/>}/>
         </Routes>
         ;
       </>
